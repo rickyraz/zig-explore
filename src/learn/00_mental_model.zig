@@ -223,4 +223,5 @@ pub fn main() void {
     std.debug.print("  07_io.zig       - I/O & Writergate (NEW!)\n", .{});
     std.debug.print("  08_type_coercion.zig - Type conversion & casting\n", .{});
     std.debug.print("  09_comptime_vs_runtime.zig - Comptime vs Runtime + diagrams\n", .{});
+    std.debug.print("  10_primitive_types.zig - Primitives: TS vs C vs Rust vs Zig\n", .{});
 }
