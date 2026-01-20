@@ -171,8 +171,8 @@ pub fn errdeferDemo() !void {
     // Kalau sampai sini tanpa error, errdefer TIDAK jalan
     // Resources akan di-manage di tempat lain
 
-    _ = resource1;
-    _ = resource2;
+    // _ = resource1;
+    // _ = resource2;
 }
 
 // =============================================================================

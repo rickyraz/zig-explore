@@ -79,7 +79,7 @@ pub fn demonstrateAllocators() !void {
     // temp1 dan temp2 akan di-free bersamaan saat arena.deinit()
     _ = temp1;
     _ = temp2;
-    _ = page_alloc;
+    // _ = page_alloc;
 }
 
 // =============================================================================
@@ -151,7 +151,7 @@ pub fn demonstrateStackArrayList() !void {
     var buffer: [100]i32 = undefined;
 
     // ArrayList yang pakai stack buffer
-    var list: std.ArrayListUnmanaged(i32) = .initBuffer(&buffer);
+    const list: std.ArrayListUnmanaged(i32) = .initBuffer(&buffer);
     // CATATAN: initBuffer tidak tersedia di semua versi
     // Alternative: manual management
 
