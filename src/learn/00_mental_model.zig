@@ -221,4 +221,6 @@ pub fn main() void {
     std.debug.print("  05_structs.zig  - Structs & methods\n", .{});
     std.debug.print("  06_imports.zig  - Module system (no usingnamespace!)\n", .{});
     std.debug.print("  07_io.zig       - I/O & Writergate (NEW!)\n", .{});
+    std.debug.print("  08_type_coercion.zig - Type conversion & casting\n", .{});
+    std.debug.print("  09_comptime_vs_runtime.zig - Comptime vs Runtime + diagrams\n", .{});
 }
